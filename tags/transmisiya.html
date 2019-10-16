@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>трансмиссия</title>
-    <meta name="title" content="трансмиссия">
+    <title>трансмисия</title>
+    <meta name="title" content="трансмисия">
     
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/> 
@@ -28,6 +28,9 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -44,7 +47,7 @@
 				<div class="header__wrap">
 					<div class="header__left">
 						<a href="../main.html" class="header__logo">
-							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/89945eeb896ca31a27689dc79a68b1e0/5E32B2D0/t51.2885-19/s150x150/70380416_2534111450207230_3843343049509830656_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="АвтоИдеал Красногорск"></div>
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2ca8f62b54d748ca9c8675433628787a/5E42C029/t51.2885-19/s150x150/72118471_2805553779488015_8685659448703713280_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="АвтоИдеал Красногорск"></div>
 							<div class="header__logo-txt">idealcarservis</div>
 						</a>
 						<div class="header__title">АвтоИдеал Красногорск</div>
@@ -59,71 +62,77 @@
 			</div>
 		</header>	
 		<div class="main">
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="шиномонтаж">
-								<a href="./shinomontazh.html">
-									<div class="stories__slide-pic"><img src="../img/og/shinomontazh.png" alt="шиномонтаж" /></div>
-									<div class="stories__slide-txt">шиномонтаж</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="шиномонтаж">
+										<a href="./shinomontazh.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/shinomontazh.png);"></div>
+											<div class="stories__slide-txt">шиномонтаж</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="двигатель">
+										<a href="./dvigatel-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dvigatel-.png);"></div>
+											<div class="stories__slide-txt">двигатель</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="электрика">
+										<a href="./elektrika.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/elektrika.png);"></div>
+											<div class="stories__slide-txt">электрика</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="трансмисия">
+										<a href="./transmisiya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/transmisiya.png);"></div>
+											<div class="stories__slide-txt">трансмисия</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="диагностика">
+										<a href="./diagnostika.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/diagnostika.png);"></div>
+											<div class="stories__slide-txt">диагностика</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="отзывы">
+										<a href="./otzyvy.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/otzyvy.png);"></div>
+											<div class="stories__slide-txt">отзывы</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="двигатель">
-								<a href="./dvigatel-.html">
-									<div class="stories__slide-pic"><img src="../img/og/dvigatel-.png" alt="двигатель" /></div>
-									<div class="stories__slide-txt">двигатель</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="электрика">
-								<a href="./elektrika.html">
-									<div class="stories__slide-pic"><img src="../img/og/elektrika.png" alt="электрика" /></div>
-									<div class="stories__slide-txt">электрика</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="трансмиссия">
-								<a href="./transmissiya.html">
-									<div class="stories__slide-pic"><img src="../img/og/transmissiya.png" alt="трансмиссия" /></div>
-									<div class="stories__slide-txt">трансмиссия</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="диагностика">
-								<a href="./diagnostika.html">
-									<div class="stories__slide-pic"><img src="../img/og/diagnostika.png" alt="диагностика" /></div>
-									<div class="stories__slide-txt">диагностика</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="отзывы">
-								<a href="./otzyvy.html">
-									<div class="stories__slide-pic"><img src="../img/og/otzyvy.png" alt="отзывы" /></div>
-									<div class="stories__slide-txt">отзывы</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
 			<nav class="breadcrumbs">
 				<div class="container">
-					<a href="../main.html">Главная</a> / <span>трансмиссия</span>
+					<a href="../main.html">Главная</a> / <span>трансмисия</span>
 				</div>
 			</nav>
 			<div class="tag">
 				<div class="container">
 					<div class="tag__group">
-						<h1 class="tag__title">трансмиссия</h1>
+						<h1 class="tag__title">трансмисия</h1>
 						<div class="tag__item-list">
-							<a href="../posts/./hashtransmissiya.html" class="tag__item">
+							<a href="../posts/./hashshortwaytopayxtransmisiyaxstory.html" class="tag__item">
 								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/dc3f61d0eca8d87f4044432fbb6d94fa/5E1FFA07/t51.2885-15/e35/69937877_147256623180678_7794535016297005922_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
@@ -137,7 +146,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="../posts/./hashtransmissiya-1.html" class="tag__item">
+							<a href="../posts/./hashshortwaytopayxtransmisiya.html" class="tag__item">
 								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/1049f7ab449962868d65d12664c279cc/5E305927/t51.2885-15/e35/70753265_3087672114636205_5690271173613176326_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
@@ -190,11 +199,12 @@
 			</div>
 		</div>			
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->
